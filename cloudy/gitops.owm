@@ -1,0 +1,218 @@
+// General
+// Map is licensed under creative commons share alike.
+// https://creativecommons.org/licenses/by-sa/4.0/
+
+title Compute - 2008
+evolution genesis / concept -> custom / emerging -> product/ converging -> commodity / accepted
+style wardley
+
+// STAGE I
+component USER [0.99, 0.67] label [7, -5]
+pipeline USER
+
+component EXISTING NEED [0.92, 0.66] label [10, -5]
+component NEW NEED [0.92, 0.34] label [10, -5]
+
+pipeline NEED
+component APPLICATION [0.83, 0.64] label [-97, 2]
+pipeline APPLICATION [0.37, 0.72]
+
+component COMPOSABLE ELEMENTS [0.36, 0.65] label [16, -37]
+pipeline COMPOSABLE ELEMENTS [0.64, 0.66]
+component "common library" [0.34, 0.65] label [-22, 14]
+
+component "Best"  [0.70, 0.74] label [10, -7]
+
+component RUNTIME [0.47, 0.63] label [-25, -11]
+pipeline RUNTIME [0.62, 0.64]
+component Lamp .Net JVM [0.45, 0.63] label [-86, 20]
+
+component CODING PRACTICE [0.72, 0.73] label [-73, -29]
+pipeline CODING PRACTICE [0.72, 0.75]
+
+component operating system [0.27, 0.69] label [11, -17]
+
+
+
+component ARCHITECTURAL PRACTICE [0.14, 0.78] label [-75, -28]
+pipeline ARCHITECTURAL PRACTICE [0.77, 0.8]
+component ITIL [0.12, 0.79] label [20, 2]
+
+component COMPUTE [0.05, 0.67] label [-13, -18]
+pipeline COMPUTE [0.66, 0.69]
+component servers [0.03, 0.67] label [-63, 11]
+
+//links
+Lamp .Net JVM ->operating system
+"common library"->operating system
+operating system->ARCHITECTURAL PRACTICE
+
+
+APPLICATION->CODING PRACTICE
+USER->EXISTING NEED
+USER->NEW NEED
+EXISTING NEED->APPLICATION
+NEW NEED->APPLICATION
+Component services->FinOps
+CODING PRACTICE->RUNTIME
+RUNTIME->COMPOSABLE ELEMENTS
+
+
+//STAGE 2
+// component USER [0.99, 0.67] label [7, -5]
+// pipeline USER
+
+// component EXISTING NEED [0.92, 0.66] label [10, -5]
+// component NEW NEED [0.92, 0.34] label [10, -5]
+
+// pipeline NEED
+// component APPLICATION [0.83, 0.64] label [-97, 2]
+// pipeline APPLICATION [0.37, 0.72]
+
+// component COMPOSABLE ELEMENTS [0.36, 0.65] label [16, -37]
+// pipeline COMPOSABLE ELEMENTS [0.64, 0.66]
+// component "common library" [0.34, 0.65] label [-22, 14]
+// component Component services [0.34, 0.73] label [26, -10]
+// component "Best" (legacy)  [0.70, 0.74] label [10, -7]
+
+// component RUNTIME [0.47, 0.63] label [-25, -11]
+// pipeline RUNTIME [0.62, 0.64]
+// component Serverless [0.46, 0.72] label [22, 11]
+// component Lamp / .Net [0.45, 0.63] label [-86, 1]
+
+// component CODING PRACTICE [0.72, 0.73] label [-73, -29]
+// pipeline CODING PRACTICE [0.72, 0.75]
+// component FinOps [0.69, 0.54] label [-71, 7]
+// component operating system [0.27, 0.69] label [11, -17]
+// component orchestration tools [0.28, 0.62] label [-75, -15]
+
+// component CONTAINER [0.22, 0.69] label [-90, 5]
+// pipeline CONTAINER
+
+// component ARCHITECTURAL PRACTICE [0.14, 0.78] label [-75, -28]
+// pipeline ARCHITECTURAL PRACTICE [0.77, 0.8]
+// component DevOps [0.12, 0.59] label [-71, 3]
+// component Legacy [0.12, 0.79] label [20, 2]
+
+// component COMPUTE [0.05, 0.67] label [-13, -18]
+// pipeline COMPUTE [0.66, 0.69]
+// component servers [0.03, 0.67] label [-63, 11]
+// component cloud [0.03, 0.76] label [19, 3]
+
+// // evolve Lamp / .Net 0.72 label [-997, 420]
+// // evolve servers 0.76 label [-1054, 62]
+// // evolve DevOps 0.68 label [-947, 140]
+// // evolve FinOps 0.6 label [-832, 511]
+// // evolve "common library" 0.73 label [-981, 311]
+// // evolve large language model 0.73 label [-990, 564]
+// // evolve conversational (AI+Human) 0.59 label [-932, 622]
+
+// //links
+// "Best" (legacy) ->Lamp / .Net
+// Serverless->FinOps
+// orchestration tools->Lamp / .Net
+// Lamp / .Net->operating system
+// orchestration tools->DevOps
+// cloud->DevOps
+// cloud->CONTAINER
+// CONTAINER->operating system
+// orchestration tools->CONTAINER
+// servers->Legacy
+// Legacy->operating system
+// large language models->conversational (AI+Human)
+// IDE->CODING PRACTICE
+// "Best" (legacy)->"common library"
+// APPLICATION->CODING PRACTICE
+// USER->EXISTING NEED
+// USER->NEW NEED
+// EXISTING NEED->APPLICATION
+// NEW NEED->APPLICATION
+// Component services->FinOps
+// CODING PRACTICE->RUNTIME
+// RUNTIME->COMPOSABLE ELEMENTS
+// COMPOSABLE ELEMENTS->CONTAINER
+// CONTAINER->ARCHITECTURAL PRACTICE
+
+//STAGE IV
+// component USER [0.99, 0.67] label [7, -5]
+// pipeline USER
+
+// component NEED [0.92, 0.66] label [10, -5]
+// pipeline NEED
+// component APPLICATION [0.83, 0.64] label [-97, 2]
+// pipeline APPLICATION
+
+// component DEVICE [0.82, 0.68]
+// pipeline DEVICE
+
+// component IDE [0.73, 0.67] label [2, -12]
+// pipeline IDE [0.6, 0.70]
+// component conversational (AI+Human) [0.71, 0.61] label [-90, -11]
+// component human centric [0.71, 0.69] label [18, 3]
+
+// component COMPOSABLE ELEMENTS [0.36, 0.65] label [16, -37]
+// pipeline COMPOSABLE ELEMENTS [0.64, 0.66]
+// component "common library" [0.34, 0.65] label [-22, 14]
+// component Component services [0.34, 0.73] label [26, -10]
+// component "Best" (legacy)  [0.70, 0.74] label [10, -7]
+
+// component RUNTIME [0.47, 0.63] label [-25, -11]
+// pipeline RUNTIME [0.62, 0.64]
+// component Serverless [0.46, 0.72] label [22, 11]
+// component Lamp / .Net [0.45, 0.63] label [-86, 1]
+// component large language models [0.65, 0.68] label [-21, 9]
+
+// component CODING PRACTICE [0.72, 0.73] label [-73, -29]
+// pipeline CODING PRACTICE [0.72, 0.75]
+// component FinOps [0.69, 0.54] label [-71, 7]
+// component operating system [0.27, 0.69] label [11, -17]
+// component orchestration tools [0.28, 0.62] label [-75, -15]
+
+// component CONTAINER [0.22, 0.69] label [-90, 5]
+// pipeline CONTAINER
+
+// component ARCHITECTURAL PRACTICE [0.14, 0.78] label [-75, -28]
+// pipeline ARCHITECTURAL PRACTICE [0.77, 0.8]
+// component DevOps [0.12, 0.59] label [-71, 3]
+// component Legacy [0.12, 0.79] label [20, 2]
+
+// component COMPUTE [0.05, 0.67] label [-13, -18]
+// pipeline COMPUTE [0.66, 0.69]
+// component servers [0.03, 0.67] label [-63, 11]
+// component cloud [0.03, 0.76] label [19, 3]
+
+// // evolve Lamp / .Net 0.72 label [-997, 420]
+// // evolve servers 0.76 label [-1054, 62]
+// // evolve DevOps 0.68 label [-947, 140]
+// // evolve FinOps 0.6 label [-832, 511]
+// // evolve "common library" 0.73 label [-981, 311]
+// // evolve large language model 0.73 label [-990, 564]
+// // evolve conversational (AI+Human) 0.59 label [-932, 622]
+
+// //links
+// "Best" (legacy) ->Lamp / .Net
+// Serverless->FinOps
+// orchestration tools->Lamp / .Net
+// Lamp / .Net->operating system
+// orchestration tools->DevOps
+// cloud->DevOps
+// cloud->CONTAINER
+// CONTAINER->operating system
+// orchestration tools->CONTAINER
+// servers->Legacy
+// Legacy->operating system
+// large language models->conversational (AI+Human)
+// IDE->CODING PRACTICE
+// "Best" (legacy)->"common library"
+// human centric->"Best" (legacy)
+// conversational (AI+Human)->FinOps
+// APPLICATION->IDE
+// USER->NEED
+// APPLICATION->NEED
+// NEED->DEVICE
+// Component services->FinOps
+// CODING PRACTICE->RUNTIME
+// RUNTIME->COMPOSABLE ELEMENTS
+// COMPOSABLE ELEMENTS->CONTAINER
+// CONTAINER->ARCHITECTURAL PRACTICE
+ARCHITECTURAL PRACTICE->COMPUTE
