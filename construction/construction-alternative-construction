@@ -1,9 +1,11 @@
-title construction - alternative construction
+title CONSTRUCTION - alternatives, JUNE 2022
 evolution genesis / concept -> custom / emerging -> product/ converging -> commodity / accepted
 style wardley
 
-note (PPP) [0.68, 0.67]
-note June, 2022 [0.01, 0.00]
+//Copyright - Creative commmons 4.0 share alike - CC by SA - by the mapping community
+
+//note (PPP) [0.68, 0.66]
+//note June, 2022 [0.01, 0.00]
 
 // note unused [0.19, 0.01]
 // note +urban planning [0.92, 0.53]
@@ -19,87 +21,88 @@ note June, 2022 [0.01, 0.00]
 
 component Developer [0.71, 0.64] label [-37, 19]
 // component market [0.88, 0.69] label [0, -10]
-// component society [0.98, 0.50] label [-60, 0]
-component government [0.88, 0.63] label [-54, -17]
+// component SOCIETY [0.98, 0.50] label [-60, 0]
+component government [0.88, 0.63] label [-58, -18]
 // component public [0.90, 0.72] label [12, 1]
 
-component principles [0.88, 0.44] label [-94, 1]
-component governance [0.90, 0.66] label [3, -14]
-pipeline governance [0.43, 0.7]
+component principles [0.88, 0.44] label [-87, 1]
+component GOVERNANCE [0.90, 0.66] label [3, -9]
+pipeline GOVERNANCE [0.43, 0.7]
 component market [0.88, 0.69] label [18, 1]
-component community [0.96, 0.46] label [-83, 4]
-pipeline property
-component society [0.98, 0.59] label [-77, -5]
-pipeline society [0.45, 0.62]
-component network [0.96, 0.61] label [15, 1]
-evolve standards 0.5 label [-624, 262]
+component community [0.96, 0.46] label [-82, 1]
+pipeline PROPERTY
+component SOCIETY [0.98, 0.59] label [-77, -5]
+pipeline SOCIETY [0.45, 0.62]
+component network [0.96, 0.61] label [18, 0]
+evolve standards 0.5 label [-624, -3262]
 
 // component externality [0.71, 0.75] label [18, 5]
 // component education [0.16, 0.02] label [12, 3]
-component property [0.79, 0.65] label [8, 5]
-component insurance [0.88, 0.56] label [-50, -15]
+component PROPERTY [0.79, 0.65] label [8, 5]
+component insurance [0.88, 0.56] label [-50, -19]
 
 // component agility [0.76, 0.22] label [-65, 2]
 
 // component composition [0.76, 0.23] label [-90, 0]
-component inspection [0.70, 0.38] label [-77, -9]
-pipeline inspection [0.17, 0.45]
+component INSPECTION [0.70, 0.38] label [-77, -9]
+pipeline INSPECTION [0.17, 0.45]
 
-component machinery [0.30, 0.59] label [11, -4]
-pipeline machinery [0.45, 0.74]
+component MACHINERY [0.30, 0.59] label [11, -4]
+pipeline MACHINERY [0.45, 0.74]
 
-evolve 3D printing 0.55 label [-681, 235]
-evolve prefabrication 0.58 label [-662, 383]
+evolve 3D printing 0.55 label [-681, -3235]
+evolve prefabrication 0.58 label [-662, -3383]
 
 // component access [0.23, 0.23] label [-24, 21]
 component equality [0.81, 0.34] label [-77, 5]
 component brick oven [0.28, 0.73] label [22, 3]
 
-pipeline observability [0.35, 0.51]
+pipeline OBSERVABILITY [0.40, 0.51]
 component onsite [0.44, 0.73] label [16, 4]
 component robotic [0.28, 0.63] label [-34, 24]
 component prefabrication [0.44, 0.49] label [-18, 27]
 component 3D printing [0.28, 0.46] label [8, 23]
 // component research [0.04, 0.33] label [-69, 1]
-component construction technologies [0.37, 0.64] label [21, -30]
-pipeline construction technologies [0.58, 0.73]
+component CONSTRUCTION TECHNOLOGIES [0.37, 0.64] label [21, -30]
+pipeline CONSTRUCTION TECHNOLOGIES [0.58, 0.73]
 // component firesafety [0.02, 0.41] label [11, 6]
 // component maintenance [0.23, 0.39] label [-77, 18]
 // component lifecycle management [0.27, 0.41] label [-74, -25]
 
-component alternative materials [0.18, 0.51] label [-84, -26]
-pipeline alternative materials [0.27, 0.53]
-component artificial wood [0.16, 0.38] label [-57, -26]
+component ALTERNATIVE MATERIALS [0.18, 0.51] label [-84, -26]
+pipeline ALTERNATIVE MATERIALS [0.32, 0.53]
+component artificial wood [0.16, 0.40] label [-4, 10]
 component longevity [0.43, 0.40] label [-74, -1]
 
-component aesthetics [0.81, 0.52] label [17, 14]
+component aesthetics [0.81, 0.52] label [17, 7]
 
 component building [0.53, 0.59] label [10, 5]
 // pipeline building // [0.35, 0.71]
 
-component construction [0.55, 0.62] label [10, -9]
-pipeline construction [0.46, 0.7]
+component CONSTRUCTION [0.55, 0.62] label [10, -9]
+pipeline CONSTRUCTION [0.46, 0.7]
 // component dwellings [0.71, 0.70] label [-28, 25]
 // component office [0.71, 0.63] label [-16, 25]
 
-component methods [0.46, 0.60] label [9, -6]
-pipeline methods [0.48, 0.74]
+component METHODS [0.46, 0.60] label [9, -6]
+pipeline METHODS [0.48, 0.74]
 // component civil engineering [0.71, 0.58] label [-42, 13]
 
 // component regulation [0.46, 0.41] label [-80, 3]
-component planning permission [0.53, 0.47] label [-44, 15]
-component smart materials [0.16, 0.28] label [-78, -12]
+component planning permission [0.53, 0.47] label [-51, 11]
+component smart materials [0.16, 0.33] label [-41, 16]
+evolve smart materials 0.38 label [-337, -3284]
 
 // component floating buildings [0.71, 0.44] label [-3, 13]
 component machine [0.35, 0.59] label [-68, 3]
-component human [0.35, 0.72] label [19, 4]
-component building control [0.68, 0.44] label [15, -15]
+component human orientated [0.35, 0.72] label [25, -12]
+component building control [0.68, 0.44] label [15, -21]
 // component sensors [0.63, 0.41] label [-33, -13]
-component observability  [0.61, 0.44] label [-31, -11]
-pipeline observability [0.35, 0.51]
-component embedded building sensors [0.59, 0.36] label [-77, -1]
+component OBSERVABILITY  [0.61, 0.44] label [-9, -13]
+pipeline OBSERVABILITY [0.40, 0.51]
+component embedded building sensors [0.59, 0.41] label [-61, 11]
 component factory mode [0.68, 0.18] label [-106, 5]
-component eyeballs [0.59, 0.50] label [16, 4]
+component eyeballs [0.59, 0.50] label [23, 4]
 component land [0.53, 0.69] label [18, 4]
 
 // component modular [0.44, 0.41] label [-28, 19]
@@ -107,29 +110,29 @@ component land [0.53, 0.69] label [18, 4]
 
 component benchmark [0.25, 0.42] label [-75, 3]
 pipeline benchmark
-evolve machine 0.7 label [-864, 287]
+evolve machine 0.7 label [-864, -3287]
 // component safety [0.33, 0.37] label [-53, 15]
-component wood [0.17, 0.68] label [-14, 24]
-component recycled containters [0.16, 0.52] label [27, -13]
+component wood [0.17, 0.68] label [-18, 22]
+component recycled containters [0.16, 0.52] label [-28, 13]
 // component wood skyscrapers [0.71, 0.36] label [-40, 13]
 
 // component cost [0.78, 0.78]
 component standards [0.34, 0.43] label [-74, 2]
-component sustainability [0.81, 0.44] label [-70, 22]
+component sustainability [0.81, 0.44] label [-77, 23]
 
-component standard materials [0.19, 0.68] label [9, -30]
-pipeline standard materials [0.67, 0.73]
+component STANDARD MATERIALS [0.19, 0.68] label [20, -33]
+pipeline STANDARD MATERIALS [0.67, 0.73]
 
-component values [0.83, 0.49] label [-51, -3]
-pipeline values [0.33, 0.53]
+component VALUES [0.83, 0.49] label [-51, -3]
+pipeline VALUES [0.33, 0.53]
 pipeline standards
 
 component concrete [0.17, 0.72] label [18, 4]
 
 component supply chain [0.10, 0.62] label [12, 9]
-component supply chain awareness [0.05, 0.27] label [-70, -22]
+component supply chain awareness [0.06, 0.21] label [-69, -18]
 
-evolve supply chain awareness 0.56 label [-2, -17]
+evolve supply chain awareness 0.56 label [-2, -3217]
 
 //links
 PPP->Developer
@@ -137,9 +140,9 @@ PPP->Developer
 // public->sustainability
 // aesthetics->public
 public->cost
-cost->construction
-building->methods
-methods->building
+cost->CONSTRUCTION
+building->METHODS
+METHODS->building
 building->land
 // land->building
 // planning permission->land
@@ -151,15 +154,15 @@ government->regulation
 // modular->standardisation
 
 
-methods->construction technologies
-construction technologies->lifecycle management
+METHODS->CONSTRUCTION TECHNOLOGIES
+CONSTRUCTION TECHNOLOGIES->lifecycle management
 lifecycle management->maintenance
-construction technologies-> materials
+CONSTRUCTION TECHNOLOGIES-> materials
 alternative material->safety
 standardisation->maintenance
 safety->standardisation
 regulation->standardisation
-sustainability->methods
+sustainability->METHODS
 // sustainability->materials
 sustainability->longevity
 alternative material->longevity
@@ -167,30 +170,30 @@ building->sensors
 // sensors->building
 // sensors->factory mode
 
-observability->building
-// observability->factory mode
+OBSERVABILITY->building
+// OBSERVABILITY->factory mode
 
-inspection -> observability
+INSPECTION -> OBSERVABILITY
 
 
-// inspection -> standardisation
+// INSPECTION -> standardisation
 planning permission -> standardisation
 longevity->standardisation
 // public -> building
-inspection->planning permission
-society->public
-society->values
+INSPECTION->planning permission
+SOCIETY->public
+SOCIETY->VALUES
 safety->research
 safety->firesafety
 regulation->safety
-construction technologies->access
+CONSTRUCTION TECHNOLOGIES->access
 equality->access
-Developer->construction
+Developer->CONSTRUCTION
 // Developer->market
 cost->market
-property->market
-// property->construction
-property->regulation
+PROPERTY->market
+// PROPERTY->CONSTRUCTION
+PROPERTY->regulation
 externality->market
 externality->discounting future
 longevity->discounting future
@@ -198,7 +201,7 @@ longevity->discounting future
 // agility->factory mode
 // composition -> factory mode
 Developer -> composition
-network->governance
+network->GOVERNANCE
 community->principles
 PPP->risk mitigation
 composition->componentisation
@@ -206,24 +209,24 @@ composition->componentisation
 standardisation->componentisation
 // componentisation->prefabrication
 prefabrication->componentisation
-// componentisation->construction technologies
-// construction technologies->componentisation
-machine->machinery
+// componentisation->CONSTRUCTION TECHNOLOGIES
+// CONSTRUCTION TECHNOLOGIES->componentisation
+machine->MACHINERY
 government->PPP
 // PPP->market
 // PPP->building
 // PPP->composition
 // government->Developer
-values->regulation
-composition->inspection
+VALUES->regulation
+composition->INSPECTION
 standardisation->material data
 material data->materials
-aesthetics->construction
-government->inspection
-insurance->inspection
-government->property
-property->insurance
-property->Developer
+aesthetics->CONSTRUCTION
+government->INSPECTION
+insurance->INSPECTION
+government->PROPERTY
+PROPERTY->insurance
+PROPERTY->Developer
 prefabrication->standardisation
 building control->eyeballs
 building control->eyeballs
@@ -233,15 +236,14 @@ planning permission->standards
 longevity->standards
 standards->material data
 prefabrication->standards
-material data->alternative materials
-construction technologies->alternative materials
-construction technologies->standard materials
+material data->ALTERNATIVE MATERIALS
+CONSTRUCTION TECHNOLOGIES->ALTERNATIVE MATERIALS
+CONSTRUCTION TECHNOLOGIES->STANDARD MATERIALS
 benchmark->standards
-benchmark->alternative materials
-benchmark->standard materials
-supply chain->standard materials
-supply chain->alternative materials
+benchmark->ALTERNATIVE MATERIALS
+benchmark->STANDARD MATERIALS
+supply chain->STANDARD MATERIALS
+supply chain->ALTERNATIVE MATERIALS
 supply chain->awareness of supply chain
 sustainability->awareness of supply chain
 supply chain->supply chain awareness
-supply chain awareness->sustainability
